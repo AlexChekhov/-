@@ -1,0 +1,133 @@
+@font-face {
+	font-family: 'Circe';
+	src: url('../fonts/circe.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/circe.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/circe.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/circe.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/circe.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/circe.svg#circe') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+body {
+    background-image: url('../img/background.png');
+    color: #ffffff;
+    font-family: 'Circe';
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1485px;
+}
+
+.main {
+
+    &-title {
+        margin: 34px 0;
+        font-size: 42px;
+        line-height: 65px;
+        font-weight: 400;
+    }
+
+    &-banner {
+        position: relative;
+	    width: 100%;
+
+        &-content {
+            position: absolute;
+            bottom: 40px;
+            left: 11%;
+            width: 77%;
+            text-align: center;
+        }
+
+        &-title {
+            font-size: 28px;
+            line-height: 24px;
+            font-weight: 700;
+            margin-bottom: 17px;
+        }
+
+        &-description {
+            font-size: 18px;
+            line-height: 24px;
+            font-weight: 400;
+        }
+    }
+}
+
+.category {
+    margin-top: 30px;
+    
+
+    &-item {
+        text-decoration: none;
+        padding: 10px 30px;
+        background-color: #1a496f;
+        color: #fff;
+        border-radius: 10px;
+        margin-right: 5px;
+
+        &-active {
+            background-color: rgb(255, 174, 67);
+            color: #1a496f;
+        }
+    }
+}
+
+.goods {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-top: 50px;
+    margin-right: 38px;
+    width: 259px;
+
+    &-title {
+        font-size: 24px;
+        line-height: 24px;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+
+    &-img {
+        height: 180px;
+        background-color: #1a496f;
+        border-radius: 20px;
+    }
+
+    &-price {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &-description {
+        margin-top: 15px;
+        font-size: 16px;
+        line-height: 18px;
+        font-weight: 300;
+    }
+}
+
+.weight, .price {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.dotter {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.price {
+    color: #ffd064;
+}
+
+.icon {
+    cursor: pointer;
+}
