@@ -1,0 +1,137 @@
+@font-face {
+  font-family: 'Circe';
+  src: url("../fonts/circe.eot");
+  /* IE 9 Compatibility Mode */
+  src: url("../fonts/circe.eot?#iefix") format("embedded-opentype"), url("../fonts/circe.woff2") format("woff2"), url("../fonts/circe.woff") format("woff"), url("../fonts/circe.ttf") format("truetype"), url("../fonts/circe.svg#circe") format("svg");
+  /* Chrome < 4, Legacy iOS */
+}
+
+body {
+  background-image: url("../img/background.png");
+  color: #ffffff;
+  font-family: 'Circe';
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1485px;
+}
+
+.main-title {
+  margin: 34px 0;
+  font-size: 42px;
+  line-height: 65px;
+  font-weight: 400;
+}
+
+.main-banner {
+  position: relative;
+  width: 100%;
+}
+
+.main-banner-content {
+  position: absolute;
+  bottom: 40px;
+  left: 11%;
+  width: 77%;
+  text-align: center;
+}
+
+.main-banner-title {
+  font-size: 28px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-bottom: 17px;
+}
+
+.main-banner-description {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.category {
+  margin-top: 30px;
+}
+
+.category-item {
+  text-decoration: none;
+  padding: 10px 30px;
+  background-color: #1a496f;
+  color: #fff;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+.category-item-active {
+  background-color: #ffae43;
+  color: #1a496f;
+}
+
+.goods {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.card {
+  margin-top: 50px;
+  margin-right: 38px;
+  width: 259px;
+}
+
+.card-title {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.card-img {
+  height: 180px;
+  background-color: #1a496f;
+  border-radius: 20px;
+}
+
+.card-price {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-description {
+  margin-top: 15px;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 300;
+}
+
+.weight, .price {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.dotter {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.price {
+  color: #ffd064;
+}
+
+.icon {
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
